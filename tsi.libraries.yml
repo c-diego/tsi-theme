@@ -1,9 +1,10 @@
 global-styling:
   css:
     theme:
+      css/bootstrap.min.css: {}
       css/style.css:  {}
-      css/print.css:  {}
   js:
+    js/bootstrap.bundle.mim.js: {}
     js/script.js:  {}
 
   dependencies:

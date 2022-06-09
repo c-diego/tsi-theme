@@ -3,12 +3,9 @@ global-styling:
     theme:
       css/bootstrap.min.css: {}
       css/style.css:  {}
-      css/docentes-title.css: {}
-      css/docentes-email.css: {}
   js:
     js/bootstrap.bundle.mim.js: {}
     js/script.js:  {}
 
   dependencies:
     - core/jquery
-

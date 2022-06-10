@@ -1,15 +1,20 @@
-name:  TSI
-description:  'Tema do Site de Tecnologia em Sistemas para Internet.'
-type:  theme
-base theme:  false
-core_version_requirement:  ^8 || ^9 || ^10
+name: TSI
+description: Tema do Site de Tecnologia em Sistemas para Internet.
+version: 0.1
+type: theme
+base theme: false
+core_version_requirement: ^8 || ^9 || ^10
 
-version:  1.0
 libraries:
   - tsi/global-styling
+  - tsi/oswald
+  - tsi/noto-sans
+
 regions:
-  header:  header
-  menu:  menu
-  content:  content
-  sidebar:  sidebar
-  footer:  footer
+  header: Header
+  menu: Navigation
+  content: Content
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
+

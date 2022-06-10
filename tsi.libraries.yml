@@ -2,10 +2,26 @@ global-styling:
   css:
     theme:
       css/bootstrap.min.css: {}
-      css/style.css:  {}
+      css/style.css: {}
   js:
     js/bootstrap.bundle.mim.js: {}
-    js/script.js:  {}
+    js/script.js: {}
 
   dependencies:
     - core/jquery
+
+oswald:
+  licence:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap: { type: external }
+
+noto-sans:
+  licence:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap: { type: external }

@@ -1,0 +1,35 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  text-decoration: none;
+  font-size: 16px;
+  color: #444444;
+}
+
+h1 {
+  font: normal 400 46px/68px Oswald, sans-serif;
+}
+
+h2 {
+  font: normal 400 16px/24px Oswald, sans-serif;
+}
+
+h3 {
+  font: normal 400 23px/34px Oswald, sans-serif;
+}
+
+h4 {
+  font: normal 400 17px/23px 'Noto Sans', sans-serif;
+}
+
+p {
+  font: normal 400, 16px/22px 'Noto Sans', sans-serif;
+}
+  
+a:link, a:visited, .email {
+  color: #5A8B9F;
+}
+  
+a:hover, a:active {
+  color: #AEDAEC;
+}

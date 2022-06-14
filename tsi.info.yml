@@ -1,5 +1,6 @@
 name: TSI
 description: Tema do Site de Tecnologia em Sistemas para Internet.
+screenshot: screenshot.png
 version: 0.1
 type: theme
 base theme: false

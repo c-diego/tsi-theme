@@ -1,9 +1,16 @@
+.fourfourfour {
+  color: #444;
+}
+
+.white {
+  color: #FFF
+}
+
 * {
   font-family: "Noto Sans", sans-serif;
   font-feature-settings: 'pnum' on, 'lnum' on;
   text-decoration: none;
   font-size: 16px;
-  color: #444444;
 }
 
 h1 {
@@ -26,7 +33,7 @@ p {
   font: normal 400, 16px/22px 'Noto Sans', sans-serif;
 }
   
-a:link, a:visited, .email {
+a:link, a:visited, span.email, span.telefone {
   color: #5A8B9F;
 }
   

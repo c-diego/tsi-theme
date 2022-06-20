@@ -12,10 +12,10 @@ libraries:
   - tsi/noto-sans
 
 regions:
-  tsiheader: Header
-  tsimenu: Navigation
-  tsicontent: Content
-  tsifooter: Footer
+  header: Header
+  menu: Navigation
+  content: Content
+  footer: Footer
   page_top: Page top
   page_bottom: Page bottom
 

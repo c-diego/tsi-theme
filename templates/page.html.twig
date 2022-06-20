@@ -1,11 +1,8 @@
 {#
 /**
- * @file
- * Bartik's theme implementation to display a single page.
  *
  * The doctype, html, head and body tags are not in this template. Instead they
- * can be found in the html.html.twig template normally located in the
- * core/modules/system directory.
+ * can be found in the html.html.twig template 
  *
  * Available variables:
  *
@@ -53,31 +50,30 @@
 
 <div id="page-wrapper">
 
-  <header>
-    <div class="container">
-      {{ page.tsiheader }}
-    </div>
-    <div class="container-fluid">
-      <div class="container">
-        {{ page.tsimenu }}
-      <div>
-    </div>
-  </header>
-
+  {% if page.header %}
   <div class="container">
-    <main>
-      <section>
-        {{ page.content }}
-      </section>
-    </main>
+    {{ page.header }}
   </div>
+  {% endif %}
 
-  <footer>
-    <div class="container-fluid">
-      <div class="container">
-        {{ page.tsifooter }}
-      </div>
+  {% if page.menu %}
+  <div class="container-fluid">
+    <div class="container">
+      {{ page.menu }}
     </div>
-  </footer>
+  </div>
+  {% endif %}
+
+  {% if page.content %}
+  <div class="container">
+    {{ page.content }}
+  </div>
+  {% endif %}
+
+  {% if page.footer %}
+  <div class="container-fluid twentythree pad10 footer">
+    {{ page.footer }}
+  </div>
+  {% endif %}
 
 </div>

@@ -1,15 +1,7 @@
-.fourfourfour {
-  color: #444;
-}
-
-.white {
-  color: #FFF
-}
-
 * {
   font-family: "Noto Sans", sans-serif;
   font-feature-settings: 'pnum' on, 'lnum' on;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 16px;
 }
 
@@ -31,12 +23,35 @@ h4 {
 
 p {
   font: normal 400, 16px/22px 'Noto Sans', sans-serif;
+  margin-bottom: 0;
 }
-  
-a:link, a:visited, span.email, span.telefone {
+
+a:link,
+a:visited,
+.email {
   color: #5A8B9F;
 }
-  
-a:hover, a:active {
+
+a:hover,
+a:active {
   color: #AEDAEC;
 }
+
+.fourfourfour {
+  color: #444444;
+}
+.white {
+  color: #FFF
+}
+
+.link-footer, .link-footer:link, .link-footer:visited, .link-footer:hover, .link-footer:active {
+  text-decoration: underline !important;
+  color: #444444;
+}
+
+a.nav-link, a.dropdown-item {
+  font: normal 400 16px/24px Oswald, sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+

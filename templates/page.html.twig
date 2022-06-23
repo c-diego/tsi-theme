@@ -48,32 +48,26 @@
  */
 #}
 
-<div id="page-wrapper">
-
-  {% if page.header %}
+{% if page.header %}
   <div class="container">
     {{ page.header }}
   </div>
-  {% endif %}
+{% endif %}
 
-  {% if page.menu %}
-  <div class="container-fluid">
-    <div class="container">
-      {{ page.menu }}
-    </div>
+{% if page.menu %}
+  <div class="container-fluid twentythree" id="navwrapper">
+    {{ page.menu }}
   </div>
-  {% endif %}
+{% endif %}
 
-  {% if page.content %}
-  <div class="container">
+{% if page.content %}
+  <div class="container main">
     {{ page.content }}
   </div>
-  {% endif %}
+{% endif %}
 
-  {% if page.footer %}
-  <div class="container-fluid twentythree pad10 footer">
+{% if page.footer %}
+  <div class="container-fluid twentythree footer">
     {{ page.footer }}
   </div>
-  {% endif %}
-
-</div>
+{% endif %}

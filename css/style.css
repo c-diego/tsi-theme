@@ -1,19 +1,24 @@
+#navwrapper {
+  border-top: 5px solid #e0cb15;
+  position: sticky;
+  top: 0;
+}
+
 .twentythree {
   background-color: #232323;
 }
 
-p {
-  margin-bottom: 1px;
+a.nav-link:hover,
+.dropdown-item:hover {
+  background-color: #e0cb15;
+  color: #232323;
 }
 
-.first-row {
-  margin-bottom: 140px;
+.main {
+  min-height: calc(100vh - 145px);
 }
 
-.pad10 {
+.footer{
+  height: 100px;
   padding: 10px;
-}
-
-.footer {
-  margin-top: 100px;
 }

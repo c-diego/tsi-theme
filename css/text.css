@@ -44,6 +44,10 @@ a:active {
   color: #FFF
 }
 
+.aaa {
+  color: #aaa;
+}
+
 .link-footer, .link-footer:link, .link-footer:visited, .link-footer:hover, .link-footer:active {
   text-decoration: underline !important;
   color: #444444;
@@ -54,4 +58,3 @@ a.nav-link, a.dropdown-item {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-

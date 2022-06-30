@@ -31,3 +31,29 @@ a.nav-link:hover,
   margin-top: 15px;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #e0cb15;
+  color:#000;
+}
+
+.accordion-button {
+  background-color: rgb(181, 188, 196);
+  color: #000;
+}
+
+.info {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}

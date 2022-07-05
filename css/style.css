@@ -6,6 +6,7 @@
 
 .twentythree {
   background-color: #232323;
+  z-index: 9999;
 }
 
 a.nav-link:hover,
@@ -37,8 +38,8 @@ a.nav-link:hover,
 }
 
 .accordion-button {
-  background-color: rgb(181, 188, 196);
-  color: #000;
+  background-color: #444;
+  color: #fff;
 }
 
 .info {

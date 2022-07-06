@@ -49,6 +49,12 @@ a.nav-link:hover,
   margin-bottom: 20px;
 }
 
+.info-pesquisa {
+  padding-left: 10px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #000;
+}
+
 .dot {
   height: 5px;
   width: 5px;

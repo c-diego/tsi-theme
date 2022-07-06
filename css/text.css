@@ -58,3 +58,8 @@ a.nav-link, a.dropdown-item {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+.titulo h3 {
+  font-weight: bolder;
+}
+

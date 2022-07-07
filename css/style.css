@@ -45,8 +45,11 @@ a.nav-link:hover,
 .info {
   padding-left: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid black;
   margin-bottom: 20px;
+}
+
+.info-sep {
+  border-bottom: 1px solid #ddd;
 }
 
 .separacao {

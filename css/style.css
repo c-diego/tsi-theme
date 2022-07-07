@@ -1,3 +1,7 @@
+.main {
+  min-height: calc(100vh - 327px);
+}
+
 #navwrapper {
   border-top: 5px solid #e0cb15;
   position: sticky;
@@ -6,7 +10,6 @@
 
 .twentythree {
   background-color: #232323;
-  z-index: 9999;
 }
 
 a.nav-link:hover,
@@ -19,22 +22,14 @@ a.nav-link:hover,
   display: block;
 }
 
-.main {
-  min-height: calc(100vh - 327px);
-}
-
-.footer{
+.footer {
   height: 100px;
   padding: 10px;
 }
 
-.margin-top-15 {
-  margin-top: 15px;
-}
-
 .accordion-button:not(.collapsed) {
   background-color: #e0cb15;
-  color:#000;
+  color: #000;
 }
 
 .accordion-button {
@@ -67,3 +62,4 @@ a.nav-link:hover,
   margin-right: 5px;
   margin-bottom: 3px;
 }
+

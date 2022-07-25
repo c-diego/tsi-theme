@@ -1,9 +1,5 @@
-.main {
-  min-height: calc(100vh - 327px);
-}
-
 #navwrapper {
-  border-top: 5px solid #e0cb15;
+  border-top: 5px solid #fecb29;
   position: sticky;
   top: 0;
   z-index: 9999;
@@ -15,7 +11,7 @@
 
 a.nav-link:hover,
 .dropdown-item:hover {
-  background-color: #e0cb15;
+  background-color: #fecb29;
   color: #232323;
 }
 
@@ -23,13 +19,18 @@ a.nav-link:hover,
   display: block;
 }
 
+.main {
+  min-height: calc(100vh - 213px);
+}
+
+/*
 .footer {
   height: 100px;
   padding: 10px;
-}
+}*/
 
 .accordion-button:not(.collapsed) {
-  background-color: #e0cb15;
+  background-color: #fecb29;
   color: #000;
 }
 
@@ -64,3 +65,44 @@ a.nav-link:hover,
   margin-bottom: 3px;
 }
 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(224,203,21, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+  border-color: #fecb29 !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#inicio {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  #inicio {
+    display: block;
+  }
+}
+
+.navbar-toggler {
+  margin: 5px;
+}
+
+.copy span {
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  #redessociais, #copy {
+    padding-bottom: 20px;
+  }
+}
